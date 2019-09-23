@@ -115,10 +115,10 @@ aside {
     float: right;
 }
 
-#contact-me {
-    width: 70%;
+/* #contact-me {
+    width: 100%;
     margin: 50px auto 20px auto;
-}
+} */
 
 #portfolio-me {
     width: 80%;
@@ -186,12 +186,12 @@ hr {
 }
 
 input {
-    margin: 0px 0px 25px 30px;
-    width: 620px;
+    margin: 0px 0px 25px 0px;
+    width: 100%;
+    max-width: 620px;
     height: 20px;
     color: white;
     font-size: 12px;
-    padding-left: 20px;
     border-top: 0;
     border-left: 0;
     border-right: 0;
@@ -206,14 +206,15 @@ input.contact-message-box {
 }
 
 .p-contact {
-    margin: 0px 0px 5px 30px;
+    margin: 0px 0px 5px 0px;
 }
 
 #submit-button {
+    text-transform: uppercase;
+    margin-bottom: 30px;
     background-color: #333333;
     font-family: 'Abel', sans-serif;
     color: #feda6a;
-    margin-left: 30px;
     border-style: none;
     font-size: 16px;
 }
@@ -239,8 +240,9 @@ li a.social-media:hover {
   }
 
   textarea {
-    margin: 0px 0px 25px 30px;
-    width: 620px;
+    margin: 0px 0px 15px 0px;
+    width: 100%;
+    max-width: 620px;
     color: white;
     font-size: 12px;
     padding: 15px 0px 0px 20px;
