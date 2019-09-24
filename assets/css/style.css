@@ -14,20 +14,6 @@
 } */
 
 /* Header with Name and NavBar */
-/* header {
-    height: 121px;
-    margin: 0px auto 0px auto;
-    padding: 0;
-    width: 960px;
-    background-image: url("http://www.figureeightdesign.com/images/dike_snake_blur.png");
-    background-size: cover;
-} */
-
-/* #rock-on{
-    float:left;
-    margin: 10px 0px 10px 20px;
-    height: 80%;
-} */
 
 #top-name {
     font-size: 40px;
@@ -90,10 +76,12 @@ h3 {
 }
 
 h4 {
-    bottom: 10px;
+    font-size: 1.25rem;
+    bottom: 30px;
     text-align: center;
     padding: 15px 0px 15px 0px;
-    margin: 140px auto 0px;
+    margin: 0px auto;
+    width: 100%;
     font-family: 'Abel', sans-serif;
     color: #feda6a;
     background-color: #333333
@@ -115,39 +103,26 @@ aside {
     float: right;
 }
 
-/* #contact-me {
-    width: 100%;
-    margin: 50px auto 20px auto;
-} */
-
-#portfolio-me {
-    width: 80%;
-    margin: 50px auto 20px auto;
-}
-
 #portfolio-box {
-    width: 768px;
+    width: 100%;
     background-color: #333333;
-    height: 500px;
+    margin-bottom: 30px;
+    margin-left: 0px;
 }
 
 .portfolio-item {
-    display:inline;
-    float: left;
-    margin: 30px 0px 0px 42px;
     width: 200px;
     height: 200px;
+    min-width: 150px;
+    min-width: 150px;
+    margin-right: 15px;
     background-color: #1d1e22;
-    background-image: url(http://placehold.it/200x200);
+    /* background-image: url(http://placehold.it/300x300); */
 }
 
 #bio-image {
     margin-top: 50px;
     border-radius: 10px;
-}
-
-img {
-    display: initial;
 }
 
 p {
@@ -180,15 +155,11 @@ hr {
     margin: 10px 0px 10px 0px
 }
 
-#portfolio-hr {
-    width: 100%;
-    margin-left: 0;
-}
 
 input {
     margin: 0px 0px 25px 0px;
     width: 100%;
-    max-width: 620px;
+    max-width: 768px;
     height: 20px;
     color: white;
     font-size: 12px;
@@ -242,7 +213,7 @@ li a.social-media:hover {
   textarea {
     margin: 0px 0px 15px 0px;
     width: 100%;
-    max-width: 620px;
+    max-width: 768px;
     color: white;
     font-size: 12px;
     padding: 15px 0px 0px 20px;
@@ -254,4 +225,9 @@ li a.social-media:hover {
     border-radius: 10px 10px 0px 0px;
     resize: vertical;
     overflow: visible;
+  }
+
+  .card {
+      border-style: none;
+      background-image: url(http://placehold.it/300x300);
   }
